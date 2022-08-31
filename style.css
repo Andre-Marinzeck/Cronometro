@@ -1,0 +1,45 @@
+body {
+    background-color:#262626;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    padding: 5rem;
+    border-radius: 10px;
+    border: 1px solid #F26849;
+    color: #F26849;
+}
+
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.container span {
+    font-size: 5rem;
+}
+
+.buttuns {
+    margin-top: 1.5rem;
+}
+
+.btn {
+    padding: .3rem 2rem;
+    margin: .5rem;
+    border-radius: 5px;
+    border: 1px solid #F26849;
+    color: #F26849;
+    background-color: #262626;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #262626;
+    color: #262626;
+    background-color: #F26849;
+}
